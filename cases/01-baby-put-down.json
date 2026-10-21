@@ -8,38 +8,39 @@
  },
  "camera": {
   "pos": [
-   0.15,
-   0.5,
-   1.8
+   -0.05,
+   0.3,
+   1.45
   ],
   "target": [
-   0.0,
+   -0.3,
    0.22,
-   0
+   -1.0
   ],
-  "fov": 38
+  "fov": 46
  },
  "moon": [
-  7,
-  200
+  14,
+  213
  ],
  "subject": {
   "id": "you",
   "kind": "toddler",
-  "scale": 0.78,
+  "scale": 0.9,
   "pose": "infantWail",
   "r": 0.3,
   "place": "lie",
-  "x": -0.2,
-  "z": 0,
-  "yaw": 1.5708,
+  "x": -0.5,
+  "z": 0.0,
+  "yaw": 1.9208,
   "support": {
    "top": 0.52,
    "bottom": 0.0
   },
   "o": {
    "lookY": -0.55
-  }
+  },
+  "infant": true
  },
  "swap": {
   "top": "door light strip",
@@ -47,17 +48,17 @@
   "frame_region": "right third",
   "points": [
    [
-    1.25,
-    0.55,
+    0.86,
+    0.43,
     -1.27
    ]
   ],
-  "point_note": "centre of the visible strip: from the toy box top (0.5 m) to where the frame cuts it (about 1.64 m), at the gap"
+  "point_note": "centre of the visible light strip at the door gap (floor to the frame top)"
  },
  "top": {
   "setting": "dark nursery at night, window upper left with the moon, cot round the subject, door at the right ajar onto a lit hallway",
   "room": {
-   "w": 4.2,
+   "w": 4.8,
    "d": 3.6,
    "at": [
     0.2,
@@ -66,52 +67,49 @@
    ]
   },
   "window": {
-   "at": -1.14,
-   "y0": 0.75,
-   "w": 1.0,
-   "h": 1.35
+   "at": -1.8,
+   "y0": 0.95,
+   "w": 1.1,
+   "h": 1.25
   },
   "door": {
-   "at": 1.4,
-   "open": 0.23
+   "at": 1.0,
+   "open": 0.55
   },
   "cot": {
    "at": [
-    -0.15,
+    -0.5,
     0,
     0
    ],
-   "yaw": 0
+   "yaw": 0.35,
+   "near": -0.03,
+   "l": 1.1
   },
-  "chest": [
-   -1.55,
-   0,
-   -0.95
-  ],
-  "chair": [
-   1.6,
-   0,
-   0.6
-  ],
-  "moonLight": 0.5,
-  "windowGlow": 3.0,
-  "hallLight": 14,
+  "moonLight": 12,
+  "windowGlow": 4,
+  "hallLight": 220,
   "look": {
-   "exposure": 1.7,
-   "aperture": 0.0008,
-   "vignette": 0.36
+   "exposure": 1.0,
+   "aperture": 0.0004,
+   "vignette": 0.3
   },
-  "toybox": {
-   "at": [
-    1.28,
-    0,
-    -0.98
+  "hallSpill": 260,
+  "env": 0.03,
+  "meanTarget": 0.27,
+  "wallLight": 3.5,
+  "rim": {
+   "from": [
+    -0.45,
+    0.6,
+    -0.65
    ],
-   "w": 0.62,
-   "h": 0.5,
-   "d": 0.4,
-   "color": "#C9B48E"
-  }
+   "power": 3,
+   "color": "#C8D6FF",
+   "dist": 2.0,
+   "angle": 0.3
+  },
+  "hallColor": "#FF9E4A"
  },
  "bottom": {
   "setting": "open savanna at night, same moon, subject on bare ground, a small fire far off on the skyline with two seated adults, dark bush left and lower right with eyeshine",
@@ -122,16 +120,16 @@
    "bushes": 0.2,
    "rocks": 0.5
   },
-  "fireDist": 38,
+  "fireDist": 4.3,
   "fireCentre": 0.35,
-  "fireSize": 0.9,
+  "fireSize": 1.5,
   "rises": [
    {
     "ray": 0,
-    "dist": 38,
+    "dist": 4.3,
     "above": 0.35,
-    "rx": 14,
-    "rz": 14
+    "rx": 2.5,
+    "rz": 2.5
    }
   ],
   "clear": [
@@ -146,46 +144,57 @@
    {
     "seed": 41,
     "at": [
-     -2.6,
+     -3.0,
      0,
-     -2.5
+     -2.2
     ],
     "n": 5,
-    "size": 0.85,
-    "spread": 0.9,
+    "size": 0.8,
+    "spread": 0.8,
     "eyes": [
      [
-      -2.15,
-      0.38,
-      -1.85
+      -2.35,
+      0.36,
+      -1.4,
+      3.0
      ]
-    ]
-   },
-   {
-    "seed": 77,
-    "at": [
-     0.85,
-     0,
-     -0.9
     ],
-    "n": 3,
-    "size": 0.42,
-    "spread": 0.35,
-    "eyes": [
-     [
-      0.72,
-      0.2,
-      -0.62,
-      1.2
-     ]
-    ]
+    "eyeSize": 1.6,
+    "eyeGap": 0.11
    }
   ],
   "look": {
-   "aperture": 0.0008
+   "aperture": 0.0003
   },
   "grass": 0.35,
   "bladeH": 0.7,
-  "litter": 120
+  "litter": 0,
+  "nightLift": 1.0,
+  "moonLight": 5.0,
+  "envNight": 2.4,
+  "meanTarget": 0.34,
+  "rim": [
+   {
+    "from": "moon",
+    "power": 8,
+    "color": "#D6E2FF",
+    "dist": 2.5,
+    "angle": 0.3
+   },
+   {
+    "from": [
+     -0.3,
+     1,
+     0.15
+    ],
+    "power": 60,
+    "color": "#E2D8C8",
+    "dist": 4,
+    "angle": 0.32
+   }
+  ],
+  "matteGround": true,
+  "adultGap": 0.72,
+  "habitat": "kalahari"
  }
 }

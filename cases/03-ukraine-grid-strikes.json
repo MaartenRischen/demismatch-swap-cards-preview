@@ -10,19 +10,19 @@
  "camera": {
   "pos": [
    0.3,
-   1.5,
-   3.9
+   1.6,
+   6.6
   ],
   "target": [
    0.15,
-   1.36,
+   1.12,
    0
   ],
-  "fov": 43
+  "fov": 40
  },
  "subject": {
   "kind": "woman",
-  "pose": "huddle",
+  "pose": "stand",
   "o": {
    "headDown": 0.32,
    "lookY": 0
@@ -34,7 +34,7 @@
   "yaw": 0.337,
   "wood": "birch",
   "seed": 32,
-  "coat": "#5A4A3E",
+  "coat": "#7E6A5A",
   "id": "you",
   "support": {
    "top": 0.0,
@@ -44,11 +44,10 @@
  "locked": [
   {
    "kind": "man",
-   "pose": "huddle",
+   "pose": "stand",
    "o": {
     "headDown": 0.32,
-    "lookY": 0,
-    "r": false
+    "lookY": 0
    },
    "r": 0.21,
    "place": "stand",
@@ -61,7 +60,7 @@
   },
   {
    "kind": "old",
-   "pose": "huddle",
+   "pose": "stand",
    "o": {
     "headDown": 0.32,
     "lookY": 0
@@ -77,11 +76,10 @@
   },
   {
    "kind": "teen",
-   "pose": "huddle",
+   "pose": "stand",
    "o": {
     "headDown": 0.32,
-    "lookY": 0,
-    "l": false
+    "lookY": 0
    },
    "r": 0.69,
    "place": "stand",
@@ -99,19 +97,19 @@
   "frame_region": "upper right",
   "points": [
    [
-    17.48,
-    11.57,
-    -50.58
+    11.02,
+    8.39,
+    -43.83
    ],
    [
-    24.21,
-    15.35,
-    -53.83
+    19.37,
+    11.67,
+    -47.24
    ],
    [
-    25.38,
-    10.1,
-    -44.28
+    21.95,
+    7.03,
+    -35.89
    ]
   ],
   "also": "battery lantern to a small fire, same spot"
@@ -121,7 +119,7 @@
   "lantern": [
    0,
    0,
-   0.05
+   0.5
   ],
   "blocks": [
    {
@@ -137,20 +135,6 @@
     "w": 18,
     "d": 14,
     "h": 24
-   },
-   {
-    "x": 45,
-    "z": -150,
-    "w": 30,
-    "d": 16,
-    "h": 14
-   },
-   {
-    "x": 80,
-    "z": -130,
-    "w": 26,
-    "d": 16,
-    "h": 11
    }
   ],
   "candles": [
@@ -171,12 +155,38 @@
    ]
   ],
   "look": {
-   "exposure": 1.8,
-   "aperture": 0.0006,
-   "vignette": 0.4
+   "exposure": 1.3,
+   "aperture": 0.0003,
+   "vignette": 0.08
   },
   "trees": [],
-  "droneScale": 1.45
+  "droneScale": 2.1,
+  "nightLift": 1.0,
+  "moonLight": 2.2,
+  "env": 0.06,
+  "lanternPower": 3.6,
+  "meanTarget": 0.26,
+  "rim": [
+   {
+    "from": "moon",
+    "power": 5,
+    "color": "#D6E2FF",
+    "dist": 2.5,
+    "angle": 0.3
+   },
+   {
+    "from": [
+     0.15,
+     1,
+     0.55
+    ],
+    "power": 30,
+    "color": "#C8D6F4",
+    "dist": 4,
+    "angle": 0.22
+   }
+  ],
+  "droneBank": 0.6
  },
  "bottom": {
   "setting": "savanna at night; a dark ridge upper right with three raiders' torches where the drones were; brush shelters where the blocks stood; the same four shoulder to shoulder round a small fire where the lantern was",
@@ -184,16 +194,16 @@
   "g": 4127,
   "scatter": {
    "trees": 0.5,
-   "bushes": 0.4,
+   "bushes": 0,
    "rocks": 0.5
   },
-  "grass": 0.5,
-  "bladeH": 0.7,
-  "litter": 250,
+  "grass": 0.25,
+  "bladeH": 0.6,
+  "litter": 0,
   "torchDist": [
-   60,
-   66,
-   56
+   26,
+   28,
+   25
   ],
   "shelters": [
    [
@@ -218,13 +228,59 @@
    ]
   ],
   "look": {
-   "aperture": 0.0006
+   "aperture": 0.0003,
+   "vignette": 0.08
   },
-  "torchScale": 2.4,
   "ridge": {
-   "rx": 13,
-   "rz": 12
+   "rx": 11,
+   "rz": 9
   },
-  "exposure": 0.55
- }
+  "exposure": 0.55,
+  "nightLift": 1.0,
+  "moonLight": 2.2,
+  "envNight": 2.0,
+  "meanTarget": 0.315,
+  "cloakColors": [
+   "#A08060",
+   "#9A7A58",
+   "#8E7254",
+   "#A6896A"
+  ],
+  "rim": [
+   {
+    "from": "moon",
+    "power": 7,
+    "color": "#D6E2FF",
+    "dist": 2.5,
+    "angle": 0.3
+   },
+   {
+    "from": [
+     0.15,
+     1,
+     0.55
+    ],
+    "power": 45,
+    "color": "#C8D6F4",
+    "dist": 4,
+    "angle": 0.22
+   }
+  ],
+  "fireSize": 0.45,
+  "torchFlame": 3.0,
+  "raiderScale": 1.0,
+  "raiderTone": "#4A3E34"
+ },
+ "moon": [
+  11.45,
+  160.5
+ ],
+ "chain": [
+  1,
+  0,
+  2,
+  3
+ ],
+ "chainGap": 0.11,
+ "moonDeg": 5.4
 }

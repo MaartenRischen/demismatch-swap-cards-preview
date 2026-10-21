@@ -1,0 +1,613 @@
+{
+ "01-baby-put-down": {
+  "lock": {
+   "head": {
+    "top": [
+     208.1,
+     373.9
+    ],
+    "bottom": [
+     208.1,
+     373.9
+    ],
+    "dpx": 0,
+    "ok": true
+   },
+   "swap": [
+    {
+     "top": [
+      814.8,
+      237.8
+     ],
+     "bottom": [
+      814.8,
+      237.8
+     ],
+     "dpx": 0,
+     "ok": true
+    }
+   ]
+  },
+  "top": {
+   "meanLuma": 0.406,
+   "subjectLuma": 0.39,
+   "subjectBox": [
+    158,
+    221,
+    442,
+    419
+   ],
+   "subjectPctH": 33.6,
+   "subjectPctW": 28.4,
+   "lying": true,
+   "lightRadius": 0,
+   "swapGeoPct": 0,
+   "swapLightPct": 4.1,
+   "swapAreaPct": 4.1,
+   "swapRank": 2,
+   "brightest": [
+    {
+     "peak": 0.95,
+     "at": [
+      530,
+      398
+     ]
+    },
+    {
+     "peak": 0.92,
+     "at": [
+      822,
+      250
+     ]
+    }
+   ],
+   "ringOffset": 3.52,
+   "ringR": 76.2,
+   "headR": 47.6,
+   "contact": [
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    }
+   ]
+  },
+  "bottom": {
+   "meanLuma": 0.347,
+   "subjectLuma": 0.373,
+   "subjectBox": [
+    158,
+    221,
+    442,
+    419
+   ],
+   "subjectPctH": 33.6,
+   "subjectPctW": 28.4,
+   "lying": true,
+   "lightRadius": 0,
+   "swapGeoPct": 16.45,
+   "swapLightPct": 8.79,
+   "swapAreaPct": 16.45,
+   "swapRank": 1,
+   "brightest": [
+    {
+     "peak": 0.92,
+     "at": [
+      794,
+      206
+     ]
+    },
+    {
+     "peak": 0.77,
+     "at": [
+      806,
+      278
+     ]
+    },
+    {
+     "peak": 0.69,
+     "at": [
+      314,
+      410
+     ]
+    }
+   ],
+   "ringOffset": 3.52,
+   "ringR": 76.2,
+   "headR": 47.6,
+   "contact": [
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    }
+   ]
+  }
+ },
+ "02-fantasy-bra-outrage": {
+  "lock": {
+   "head": {
+    "top": [
+     335.9,
+     277.8
+    ],
+    "bottom": [
+     335.9,
+     277.8
+    ],
+    "dpx": 0,
+    "ok": true
+   },
+   "swap": [
+    {
+     "top": [
+      384.1,
+      273.8
+     ],
+     "bottom": [
+      403.5,
+      280
+     ],
+     "dpx": 20.37,
+     "ok": true
+    }
+   ]
+  },
+  "top": {
+   "meanLuma": 0.28,
+   "subjectLuma": 0.424,
+   "subjectBox": [
+    316,
+    262,
+    422,
+    438
+   ],
+   "subjectPctH": 30,
+   "subjectPctW": 10.6,
+   "lying": false,
+   "lightRadius": 0,
+   "swapGeoPct": 5.39,
+   "swapLightPct": 19.33,
+   "swapAreaPct": 19.33,
+   "swapRank": 2,
+   "brightest": [
+    {
+     "peak": 0.91,
+     "at": [
+      622,
+      146
+     ]
+    },
+    {
+     "peak": 0.91,
+     "at": [
+      250,
+      306
+     ]
+    },
+    {
+     "peak": 0.88,
+     "at": [
+      422,
+      318
+     ]
+    }
+   ],
+   "ringOffset": 0.36,
+   "ringR": 25.9,
+   "headR": 16.2,
+   "contact": [
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    },
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    },
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    },
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    }
+   ]
+  },
+  "bottom": {
+   "meanLuma": 0.354,
+   "subjectLuma": 0.36,
+   "subjectBox": [
+    316,
+    262,
+    422,
+    438
+   ],
+   "subjectPctH": 30,
+   "subjectPctW": 10.6,
+   "lying": false,
+   "lightRadius": 0,
+   "swapGeoPct": 2.87,
+   "swapLightPct": 19,
+   "swapAreaPct": 19,
+   "swapRank": 2,
+   "brightest": [
+    {
+     "peak": 0.98,
+     "at": [
+      582,
+      326
+     ]
+    },
+    {
+     "peak": 0.71,
+     "at": [
+      670,
+      230
+     ]
+    },
+    {
+     "peak": 0.58,
+     "at": [
+      286,
+      366
+     ]
+    }
+   ],
+   "ringOffset": 0.36,
+   "ringR": 25.9,
+   "headR": 16.2,
+   "contact": [
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    },
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    },
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    },
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    }
+   ]
+  }
+ },
+ "03-ukraine-grid-strikes": {
+  "lock": {
+   "head": {
+    "top": [
+     453.3,
+     237
+    ],
+    "bottom": [
+     453.3,
+     237
+    ],
+    "dpx": 0,
+    "ok": true
+   },
+   "swap": [
+    {
+     "top": [
+      694.1,
+      124.7
+     ],
+     "bottom": [
+      694.1,
+      124.7
+     ],
+     "dpx": 0,
+     "ok": true
+    },
+    {
+     "top": [
+      813.1,
+      80.3
+     ],
+     "bottom": [
+      813.1,
+      80.3
+     ],
+     "dpx": 0,
+     "ok": true
+    },
+    {
+     "top": [
+      941.8,
+      129.7
+     ],
+     "bottom": [
+      941.8,
+      129.7
+     ],
+     "dpx": 0,
+     "ok": true
+    }
+   ]
+  },
+  "top": {
+   "meanLuma": 0.272,
+   "subjectLuma": 0.351,
+   "subjectBox": [
+    421,
+    225,
+    483,
+    419
+   ],
+   "subjectPctH": 32.9,
+   "subjectPctW": 6.2,
+   "lying": false,
+   "lightRadius": 0,
+   "swapGeoPct": 7.69,
+   "swapLightPct": 9.44,
+   "swapAreaPct": 9.44,
+   "swapRank": 1,
+   "brightest": [
+    {
+     "peak": 0.93,
+     "at": [
+      798,
+      42
+     ]
+    },
+    {
+     "peak": 0.91,
+     "at": [
+      174,
+      30
+     ]
+    },
+    {
+     "peak": 0.76,
+     "at": [
+      506,
+      450
+     ]
+    }
+   ],
+   "ringOffset": 0.12,
+   "ringR": 19.8,
+   "headR": 12.4,
+   "contact": [
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    },
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    },
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    },
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    }
+   ]
+  },
+  "bottom": {
+   "meanLuma": 0.326,
+   "subjectLuma": 0.376,
+   "subjectBox": [
+    421,
+    225,
+    483,
+    419
+   ],
+   "subjectPctH": 32.9,
+   "subjectPctW": 6.2,
+   "lying": false,
+   "lightRadius": 0,
+   "swapGeoPct": 6.99,
+   "swapLightPct": 9.18,
+   "swapAreaPct": 9.18,
+   "swapRank": 1,
+   "brightest": [
+    {
+     "peak": 0.94,
+     "at": [
+      806,
+      86
+     ]
+    },
+    {
+     "peak": 0.89,
+     "at": [
+      478,
+      422
+     ]
+    },
+    {
+     "peak": 0.69,
+     "at": [
+      938,
+      134
+     ]
+    }
+   ],
+   "ringOffset": 0.12,
+   "ringR": 19.8,
+   "headR": 12.4,
+   "contact": [
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    },
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    },
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    },
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    }
+   ]
+  }
+ },
+ "04-awake-at-1am": {
+  "lock": {
+   "head": {
+    "top": [
+     330.9,
+     306
+    ],
+    "bottom": [
+     330.9,
+     306
+    ],
+    "dpx": 0,
+    "ok": true
+   },
+   "swap": [
+    {
+     "top": [
+      291.1,
+      143.2
+     ],
+     "bottom": [
+      291.1,
+      143.2
+     ],
+     "dpx": 0,
+     "ok": true
+    }
+   ]
+  },
+  "top": {
+   "meanLuma": 0.344,
+   "subjectLuma": 0.36,
+   "subjectBox": [
+    298,
+    145,
+    913,
+    388
+   ],
+   "subjectPctH": 41.1,
+   "subjectPctW": 61.6,
+   "lying": true,
+   "lightRadius": 150,
+   "swapGeoPct": 0.26,
+   "swapLightPct": 10.78,
+   "swapAreaPct": 10.78,
+   "swapRank": 1,
+   "brightest": [
+    {
+     "peak": 0.97,
+     "at": [
+      246,
+      254
+     ]
+    },
+    {
+     "peak": 0.87,
+     "at": [
+      422,
+      386
+     ]
+    },
+    {
+     "peak": 0.85,
+     "at": [
+      294,
+      146
+     ]
+    }
+   ],
+   "ringOffset": 1.8,
+   "ringR": 53.6,
+   "headR": 33.5,
+   "contact": [
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    }
+   ]
+  },
+  "bottom": {
+   "meanLuma": 0.417,
+   "subjectLuma": 0.522,
+   "subjectBox": [
+    290,
+    182,
+    913,
+    388
+   ],
+   "subjectPctH": 35,
+   "subjectPctW": 62.4,
+   "lying": true,
+   "lightRadius": 0,
+   "swapGeoPct": 0,
+   "swapLightPct": 15.68,
+   "swapAreaPct": 15.68,
+   "swapRank": 1,
+   "brightest": [
+    {
+     "peak": 0.94,
+     "at": [
+      294,
+      154
+     ]
+    }
+   ],
+   "ringOffset": 1.8,
+   "ringR": 53.6,
+   "headR": 33.5,
+   "contact": [
+    {
+     "inside": 0,
+     "below": 0,
+     "of": 7792,
+     "hits": {}
+    }
+   ]
+  }
+ }
+}

@@ -9,44 +9,54 @@
  "note": "No celebrity likeness, name or branding in the image.",
  "camera": {
   "pos": [
-   0.12,
-   1.45,
-   1.45
+   2.6,
+   2.2,
+   5.6
   ],
   "target": [
-   0.0,
-   1.0,
-   -7
+   1.1,
+   0.85,
+   -1.6
   ],
-  "fov": 40
+  "fov": 36
  },
  "subject": {
   "kind": "teen",
   "pose": "sitRaise",
   "r": 0.55,
   "place": "seat",
-  "y": 0.46,
-  "x": 0.33,
+  "y": 0.5,
+  "x": 0.31,
   "z": 0.0,
-  "yaw": -3.088,
+  "yaw": 2.616,
   "wood": "beech",
   "seed": 43,
   "o": {
-   "up": 0.33,
-   "headDown": -0.1
+   "headDown": -0.05,
+   "up": -0.4,
+   "film": 0.9
   },
   "top": {},
   "bottom": {
    "o": {
-    "up": 0.33,
-    "headDown": -0.1,
-    "point": true
+    "headDown": -0.05,
+    "up": -0.4,
+    "film": 0.9
    }
   },
   "id": "you",
   "support": {
    "top": 0.0,
    "bottom": 0.0
+  },
+  "film": {
+   "two": true,
+   "ahead": 0.34,
+   "up": -0.02
+  },
+  "point": {
+   "hand": "r",
+   "reach": 0.62
   }
  },
  "locked": [
@@ -55,23 +65,34 @@
    "pose": "sitRaise",
    "r": 0.15,
    "place": "seat",
-   "y": 0.46,
-   "x": -0.95,
+   "y": 0.5,
+   "x": -0.93,
    "z": 0.0,
-   "yaw": 2.99,
+   "yaw": 2.395,
    "wood": "birch",
    "seed": 41,
    "o": {
-    "up": 0.3,
-    "headDown": -0.1
+    "headDown": -0.05,
+    "up": -0.4,
+    "film": 0.9
    },
    "top": {},
    "bottom": {
     "o": {
-     "up": 0.3,
-     "headDown": -0.1,
-     "point": true
+     "headDown": -0.05,
+     "up": -0.4,
+     "film": 0.9
     }
+   },
+   "film": {
+    "hand": "l",
+    "ahead": 0.3,
+    "up": 0.12
+   },
+   "point": {
+    "hand": "l",
+    "dy": 0.25,
+    "reach": 0.6
    }
   },
   {
@@ -79,23 +100,34 @@
    "pose": "sitRaise",
    "r": 0.35,
    "place": "seat",
-   "y": 0.46,
-   "x": -0.33,
+   "y": 0.5,
+   "x": -0.31,
    "z": 0.0,
-   "yaw": 3.088,
+   "yaw": 2.496,
    "wood": "beech",
    "seed": 42,
    "o": {
-    "up": 0.25,
-    "headDown": -0.1
+    "headDown": -0.05,
+    "up": -0.4,
+    "film": 0.9
    },
    "top": {},
    "bottom": {
     "o": {
-     "up": 0.25,
-     "headDown": -0.1,
-     "point": true
+     "headDown": -0.05,
+     "up": -0.4,
+     "film": 0.9
     }
+   },
+   "film": {
+    "two": true,
+    "ahead": 0.36,
+    "up": 0.05
+   },
+   "point": {
+    "hand": "r",
+    "dy": 0.0,
+    "reach": 0.63
    }
   },
   {
@@ -103,23 +135,34 @@
    "pose": "sitRaise",
    "r": 0.75,
    "place": "seat",
-   "y": 0.46,
-   "x": 0.95,
+   "y": 0.5,
+   "x": 0.93,
    "z": 0.0,
-   "yaw": -2.99,
+   "yaw": 2.754,
    "wood": "pine",
    "seed": 44,
    "o": {
-    "up": 0.27,
-    "headDown": -0.1
+    "headDown": -0.05,
+    "up": -0.4,
+    "film": 0.9
    },
    "top": {},
    "bottom": {
     "o": {
-     "up": 0.27,
-     "headDown": -0.1,
-     "point": true
+     "headDown": -0.05,
+     "up": -0.4,
+     "film": 0.9
     }
+   },
+   "film": {
+    "hand": "r",
+    "ahead": 0.28,
+    "up": -0.05
+   },
+   "point": {
+    "hand": "r",
+    "dy": -0.25,
+    "reach": 0.55
    }
   }
  ],
@@ -131,32 +174,53 @@
  "top": {
   "setting": "glossy runway under stage lights, a beech mannequin walking towards camera in jewelled lingerie and white feathered wings; four hands up with phones in the foreground",
   "runway": {
-   "w": 2.0,
-   "h": 0.55,
-   "len": 22,
-   "z0": -0.9
+   "w": 1.8,
+   "h": 0.5,
+   "len": 14,
+   "before": 1.6,
+   "color": "#26262B"
   },
   "lights": [
-   -2.5,
-   -5.5,
-   -8.5,
-   -11.5
+   0,
+   2.5,
+   5.5
   ],
-  "lightPower": 380,
+  "lightPower": 160,
   "model": {
    "at": [
-    0.0,
+    2.4,
     0,
-    -6.2
-   ],
-   "yaw": 0
+    -3.6
+   ]
   },
-  "phoneValue": 2.2,
+  "phoneValue": 4.5,
   "look": {
-   "exposure": 1.25,
-   "aperture": 0.0005,
-   "vignette": 0.42
-  }
+   "exposure": 1.1,
+   "aperture": 5e-05,
+   "maxblur": 0.002,
+   "vignette": 0.3
+  },
+  "backWash": 90,
+  "rowLight": 60,
+  "env": 0.06,
+  "meanTarget": 0.27,
+  "floor": "#34343A",
+  "hallWall": "#5A5C66",
+  "hallWash": 60,
+  "rim": {
+   "from": [
+    -0.7,
+    0.6,
+    0.4
+   ],
+   "power": 14,
+   "color": "#FFFFFF",
+   "dist": 2.0,
+   "angle": 0.35
+  },
+  "phoneToCam": 0.6,
+  "phoneLight": 4,
+  "phoneGlow": 1.2
  },
  "bottom": {
   "setting": "forager camp at night: where the model stood, a young woman behind the fire holds up the biggest roast haunch, an older woman's hand on her shoulder; three dusty hunters behind with spears lowered, empty-handed; four seated band members pointing at her",
@@ -167,67 +231,66 @@
    "bushes": 0.4,
    "rocks": 0.4
   },
-  "grass": 0.4,
+  "grass": 0.3,
   "bladeH": 0.7,
-  "litter": 300,
-  "fire": [
-   0.0,
-   0,
-   -4.6
-  ],
-  "girl": {
-   "at": [
-    0.0,
-    0,
-    -6.2
-   ],
-   "yaw": 0
-  },
-  "old": {
-   "at": [
-    0.48,
-    0,
-    -6.75
-   ],
-   "yaw": -0.15
-  },
+  "litter": 0,
   "hunters": [
-   [
-    -2.3,
-    0,
-    -9.4,
-    0.35
-   ],
-   [
-    1.9,
-    0,
-    -9.8,
-    -0.2
-   ],
-   [
-    3.1,
-    0,
-    -9.0,
-    -0.45
-   ]
+   -1.5,
+   0.1,
+   1.7
   ],
   "clear": [
    [
-    0,
-    -3,
-    4,
-    3
-   ],
-   [
-    0,
-    -8,
-    4,
+    0.5,
+    -1.5,
+    5,
     3
    ]
   ],
   "exposure": 0.9,
   "look": {
-   "aperture": 0.0005
-  }
+   "aperture": 5e-05,
+   "maxblur": 0.002
+  },
+  "fireBefore": 1.3,
+  "fireSize": 0.95,
+  "huntersBack": 3.6,
+  "nightLift": 1.0,
+  "moonLight": 2.4,
+  "envNight": 2.0,
+  "meanTarget": 0.345,
+  "rim": {
+   "from": [
+    0.55,
+    0.45,
+    -0.7
+   ],
+   "power": 14,
+   "color": "#FFC890",
+   "dist": 2.0,
+   "angle": 0.35
+  },
+  "haunch": 1.6,
+  "hunterTone": "#4E3E2E",
+  "huntersAt": [
+   [
+    -1.6,
+    -6.2
+   ],
+   [
+    -0.9,
+    -6.8
+   ],
+   [
+    -2.3,
+    -6.9
+   ]
+  ],
+  "huntersYaw": [
+   0.9,
+   0.85,
+   1.0
+  ],
+  "subjectAim": 0.55
  }
 }
