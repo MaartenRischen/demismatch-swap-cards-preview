@@ -1,0 +1,233 @@
+{
+ "id": "02-fantasy-bra-outrage",
+ "copy": {
+  "headline": "Furious about a bra you will never wear",
+  "label": "what your brain sees",
+  "verdict": "Someone took the best meat without hunting. The whole fire wants her punished.",
+  "grade": "evidence: strong \u00b7 this read: interpretive"
+ },
+ "note": "No celebrity likeness, name or branding in the image.",
+ "camera": {
+  "pos": [
+   0.12,
+   1.45,
+   1.45
+  ],
+  "target": [
+   0.0,
+   1.0,
+   -7
+  ],
+  "fov": 40
+ },
+ "subject": {
+  "kind": "teen",
+  "pose": "sitRaise",
+  "r": 0.55,
+  "place": "seat",
+  "y": 0.46,
+  "x": 0.33,
+  "z": 0.0,
+  "yaw": -3.088,
+  "wood": "beech",
+  "seed": 43,
+  "o": {
+   "up": 0.33,
+   "headDown": -0.1
+  },
+  "top": {},
+  "bottom": {
+   "o": {
+    "up": 0.33,
+    "headDown": -0.1,
+    "point": true
+   }
+  },
+  "id": "you",
+  "support": {
+   "top": 0.0,
+   "bottom": 0.0
+  }
+ },
+ "locked": [
+  {
+   "kind": "woman",
+   "pose": "sitRaise",
+   "r": 0.15,
+   "place": "seat",
+   "y": 0.46,
+   "x": -0.95,
+   "z": 0.0,
+   "yaw": 2.99,
+   "wood": "birch",
+   "seed": 41,
+   "o": {
+    "up": 0.3,
+    "headDown": -0.1
+   },
+   "top": {},
+   "bottom": {
+    "o": {
+     "up": 0.3,
+     "headDown": -0.1,
+     "point": true
+    }
+   }
+  },
+  {
+   "kind": "man",
+   "pose": "sitRaise",
+   "r": 0.35,
+   "place": "seat",
+   "y": 0.46,
+   "x": -0.33,
+   "z": 0.0,
+   "yaw": 3.088,
+   "wood": "beech",
+   "seed": 42,
+   "o": {
+    "up": 0.25,
+    "headDown": -0.1
+   },
+   "top": {},
+   "bottom": {
+    "o": {
+     "up": 0.25,
+     "headDown": -0.1,
+     "point": true
+    }
+   }
+  },
+  {
+   "kind": "old",
+   "pose": "sitRaise",
+   "r": 0.75,
+   "place": "seat",
+   "y": 0.46,
+   "x": 0.95,
+   "z": 0.0,
+   "yaw": -2.99,
+   "wood": "pine",
+   "seed": 44,
+   "o": {
+    "up": 0.27,
+    "headDown": -0.1
+   },
+   "top": {},
+   "bottom": {
+    "o": {
+     "up": 0.27,
+     "headDown": -0.1,
+     "point": true
+    }
+   }
+  }
+ ],
+ "swap": {
+  "top": "raised phones",
+  "bottom": "pointing arms",
+  "frame_region": "lower middle"
+ },
+ "top": {
+  "setting": "glossy runway under stage lights, a beech mannequin walking towards camera in jewelled lingerie and white feathered wings; four hands up with phones in the foreground",
+  "runway": {
+   "w": 2.0,
+   "h": 0.55,
+   "len": 22,
+   "z0": -0.9
+  },
+  "lights": [
+   -2.5,
+   -5.5,
+   -8.5,
+   -11.5
+  ],
+  "lightPower": 380,
+  "model": {
+   "at": [
+    0.0,
+    0,
+    -6.2
+   ],
+   "yaw": 0
+  },
+  "phoneValue": 2.2,
+  "look": {
+   "exposure": 1.25,
+   "aperture": 0.0005,
+   "vignette": 0.42
+  }
+ },
+ "bottom": {
+  "setting": "forager camp at night: where the model stood, a young woman behind the fire holds up the biggest roast haunch, an older woman's hand on her shoulder; three dusty hunters behind with spears lowered, empty-handed; four seated band members pointing at her",
+  "time": "night",
+  "g": 5133,
+  "scatter": {
+   "trees": 0.5,
+   "bushes": 0.4,
+   "rocks": 0.4
+  },
+  "grass": 0.4,
+  "bladeH": 0.7,
+  "litter": 300,
+  "fire": [
+   0.0,
+   0,
+   -4.6
+  ],
+  "girl": {
+   "at": [
+    0.0,
+    0,
+    -6.2
+   ],
+   "yaw": 0
+  },
+  "old": {
+   "at": [
+    0.48,
+    0,
+    -6.75
+   ],
+   "yaw": -0.15
+  },
+  "hunters": [
+   [
+    -2.3,
+    0,
+    -9.4,
+    0.35
+   ],
+   [
+    1.9,
+    0,
+    -9.8,
+    -0.2
+   ],
+   [
+    3.1,
+    0,
+    -9.0,
+    -0.45
+   ]
+  ],
+  "clear": [
+   [
+    0,
+    -3,
+    4,
+    3
+   ],
+   [
+    0,
+    -8,
+    4,
+    3
+   ]
+  ],
+  "exposure": 0.9,
+  "look": {
+   "aperture": 0.0005
+  }
+ }
+}

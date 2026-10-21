@@ -1,0 +1,175 @@
+{
+ "id": "04-awake-at-1am",
+ "copy": {
+  "headline": "Exhausted, still awake at 1am",
+  "label": "what your brain sees",
+  "verdict": "The sun is still up, and scouts keep running in with news.",
+  "grade": "evidence: established \u00b7 this read: interpretive"
+ },
+ "camera": {
+  "pos": [
+   -0.22,
+   0.07,
+   0.98
+  ],
+  "target": [
+   -0.3,
+   0.33,
+   0
+  ],
+  "fov": 46
+ },
+ "subject": {
+  "id": "you",
+  "kind": "woman",
+  "pose": "lieBackUp",
+  "r": 0.2,
+  "place": "lie",
+  "x": 0,
+  "z": 0,
+  "yaw": 1.5708,
+  "support": {
+   "top": 0.52,
+   "bottom": 0.015
+  },
+  "top": {
+   "o": {}
+  },
+  "bottom": {
+   "o": {
+    "shade": true
+   }
+  }
+ },
+ "swap": {
+  "top": "phone held above the face",
+  "bottom": "the sun",
+  "frame_region": "upper left"
+ },
+ "top": {
+  "setting": "dark bedroom, the phone's cold light on the blank head, bedside table at right with a red clock reading 1:07",
+  "room": {
+   "w": 4.0,
+   "d": 3.4,
+   "at": [
+    0.1,
+    0,
+    0.1
+   ]
+  },
+  "bed": {
+   "at": [
+    -0.05,
+    0,
+    -0.42
+   ],
+   "yaw": 1.5708
+  },
+  "table": {
+   "at": [
+    0.8,
+    0,
+    -1.36
+   ],
+   "yaw": -0.3,
+   "h": 1.0
+  },
+  "clock": {
+   "color": "#FF2A1A",
+   "value": 3.0,
+   "yaw": -0.3,
+   "scale": 1.7
+  },
+  "wardrobe": [
+   -1.3,
+   0,
+   -1.28
+  ],
+  "curtains": [
+   [
+    0.15,
+    3
+   ],
+   [
+    0.85,
+    4
+   ]
+  ],
+  "phone": {
+   "value": 2.0,
+   "light": 6,
+   "spill": 0.15
+  },
+  "env": 0.02,
+  "look": {
+   "exposure": 1.9,
+   "aperture": 4e-05,
+   "vignette": 0.42,
+   "maxblur": 0.002
+  },
+  "duvet": false
+ },
+ "bottom": {
+  "setting": "bright savanna by day, same figure on a hide, the arm shading the head, the sun where the phone was, two scouts running in from the right",
+  "time": "day",
+  "g": 2207,
+  "sunDeg": 2.2,
+  "clouds": 0,
+  "scatter": {
+   "trees": 0.6,
+   "bushes": 0.3,
+   "rocks": 0.5
+  },
+  "grass": 0.5,
+  "bladeH": 0.55,
+  "litter": 200,
+  "clear": [
+   [
+    0,
+    0,
+    3.5,
+    3
+   ],
+   [
+    1.2,
+    -4.5,
+    3.5,
+    3
+   ]
+  ],
+  "scouts": [
+   {
+    "at": [
+     1.6,
+     0,
+     -3.5
+    ],
+    "yaw": -1.15,
+    "wood": "beech",
+    "seed": 21,
+    "t": 0.15,
+    "r": 0.1
+   },
+   {
+    "at": [
+     0.75,
+     0,
+     -5.4
+    ],
+    "yaw": -1.2,
+    "wood": "birch",
+    "seed": 22,
+    "t": 0.45,
+    "r": 0.6
+   }
+  ],
+  "turbidity": 1.6,
+  "mie": 0.0007,
+  "look": {
+   "aperture": 4e-05,
+   "maxblur": 0.002
+  },
+  "mieG": 0.7,
+  "exposure": 0.8
+ }
+}

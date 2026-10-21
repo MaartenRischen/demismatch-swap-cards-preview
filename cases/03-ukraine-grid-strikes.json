@@ -1,0 +1,230 @@
+{
+ "id": "03-ukraine-grid-strikes",
+ "copy": {
+  "headline": "76 grid strikes in a week. Still no surrender.",
+  "label": "what their brains see",
+  "verdict": "Raiders on the ridge. Everyone moves closer to the fire.",
+  "grade": "evidence: thin \u00b7 not yet in Cor"
+ },
+ "note": "76 is Zelensky's figure for the week after the 11 Oct 'energy ceasefire'. Cor has no direct intergroup-threat-cohesion evidence yet; keep the grade as written.",
+ "camera": {
+  "pos": [
+   0.3,
+   1.5,
+   3.9
+  ],
+  "target": [
+   0.15,
+   1.36,
+   0
+  ],
+  "fov": 43
+ },
+ "subject": {
+  "kind": "woman",
+  "pose": "huddle",
+  "o": {
+   "headDown": 0.32,
+   "lookY": 0
+  },
+  "r": 0.37,
+  "place": "stand",
+  "x": -0.27,
+  "z": -0.52,
+  "yaw": 0.337,
+  "wood": "birch",
+  "seed": 32,
+  "coat": "#5A4A3E",
+  "id": "you",
+  "support": {
+   "top": 0.0,
+   "bottom": 0.0
+  }
+ },
+ "locked": [
+  {
+   "kind": "man",
+   "pose": "huddle",
+   "o": {
+    "headDown": 0.32,
+    "lookY": 0,
+    "r": false
+   },
+   "r": 0.21,
+   "place": "stand",
+   "x": -0.78,
+   "z": -0.12,
+   "yaw": 1.128,
+   "wood": "beech",
+   "seed": 31,
+   "coat": "#3A3F48"
+  },
+  {
+   "kind": "old",
+   "pose": "huddle",
+   "o": {
+    "headDown": 0.32,
+    "lookY": 0
+   },
+   "r": 0.53,
+   "place": "stand",
+   "x": 0.27,
+   "z": -0.52,
+   "yaw": -0.337,
+   "wood": "ash",
+   "seed": 33,
+   "coat": "#2F3A34"
+  },
+  {
+   "kind": "teen",
+   "pose": "huddle",
+   "o": {
+    "headDown": 0.32,
+    "lookY": 0,
+    "l": false
+   },
+   "r": 0.69,
+   "place": "stand",
+   "x": 0.78,
+   "z": -0.12,
+   "yaw": -1.128,
+   "wood": "pine",
+   "seed": 34,
+   "coat": "#4A3A44"
+  }
+ ],
+ "swap": {
+  "top": "three drones",
+  "bottom": "three raiders' torches on the ridge",
+  "frame_region": "upper right",
+  "points": [
+   [
+    17.48,
+    11.57,
+    -50.58
+   ],
+   [
+    24.21,
+    15.35,
+    -53.83
+   ],
+   [
+    25.38,
+    10.1,
+    -44.28
+   ]
+  ],
+  "also": "battery lantern to a small fire, same spot"
+ },
+ "top": {
+  "setting": "night courtyard between concrete apartment blocks after grid strikes; nearly all windows dark, three lit by candles; three drone silhouettes upper right; four neighbours in winter coats round one battery lantern",
+  "lantern": [
+   0,
+   0,
+   0.05
+  ],
+  "blocks": [
+   {
+    "x": -27,
+    "z": -34,
+    "w": 22,
+    "d": 14,
+    "h": 22
+   },
+   {
+    "x": -6,
+    "z": -38,
+    "w": 18,
+    "d": 14,
+    "h": 24
+   },
+   {
+    "x": 45,
+    "z": -150,
+    "w": 30,
+    "d": 16,
+    "h": 14
+   },
+   {
+    "x": 80,
+    "z": -130,
+    "w": 26,
+    "d": 16,
+    "h": 11
+   }
+  ],
+  "candles": [
+   [
+    -10.2,
+    7.6,
+    -30.9
+   ],
+   [
+    -1.6,
+    10.6,
+    -30.9
+   ],
+   [
+    -27.5,
+    10.6,
+    -26.9
+   ]
+  ],
+  "look": {
+   "exposure": 1.8,
+   "aperture": 0.0006,
+   "vignette": 0.4
+  },
+  "trees": [],
+  "droneScale": 1.45
+ },
+ "bottom": {
+  "setting": "savanna at night; a dark ridge upper right with three raiders' torches where the drones were; brush shelters where the blocks stood; the same four shoulder to shoulder round a small fire where the lantern was",
+  "time": "night",
+  "g": 4127,
+  "scatter": {
+   "trees": 0.5,
+   "bushes": 0.4,
+   "rocks": 0.5
+  },
+  "grass": 0.5,
+  "bladeH": 0.7,
+  "litter": 250,
+  "torchDist": [
+   60,
+   66,
+   56
+  ],
+  "shelters": [
+   [
+    -7.5,
+    -11
+   ],
+   [
+    -3.2,
+    -13.5
+   ],
+   [
+    -11,
+    -7
+   ]
+  ],
+  "clear": [
+   [
+    0,
+    -0.3,
+    3,
+    3
+   ]
+  ],
+  "look": {
+   "aperture": 0.0006
+  },
+  "torchScale": 2.4,
+  "ridge": {
+   "rx": 13,
+   "rz": 12
+  },
+  "exposure": 0.55
+ }
+}

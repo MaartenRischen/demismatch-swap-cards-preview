@@ -1,0 +1,191 @@
+{
+ "id": "01-baby-put-down",
+ "copy": {
+  "headline": "She screams the second you put her down",
+  "label": "what her brain sees",
+  "verdict": "Alone in the dark meant predators. Crying is what brought the adults back.",
+  "grade": "evidence: established \u00b7 this read: theoretical"
+ },
+ "camera": {
+  "pos": [
+   0.15,
+   0.5,
+   1.8
+  ],
+  "target": [
+   0.0,
+   0.22,
+   0
+  ],
+  "fov": 38
+ },
+ "moon": [
+  7,
+  200
+ ],
+ "subject": {
+  "id": "you",
+  "kind": "toddler",
+  "scale": 0.78,
+  "pose": "infantWail",
+  "r": 0.3,
+  "place": "lie",
+  "x": -0.2,
+  "z": 0,
+  "yaw": 1.5708,
+  "support": {
+   "top": 0.52,
+   "bottom": 0.0
+  },
+  "o": {
+   "lookY": -0.55
+  }
+ },
+ "swap": {
+  "top": "door light strip",
+  "bottom": "distant campfire",
+  "frame_region": "right third",
+  "points": [
+   [
+    1.25,
+    0.55,
+    -1.27
+   ]
+  ],
+  "point_note": "centre of the visible strip: from the toy box top (0.5 m) to where the frame cuts it (about 1.64 m), at the gap"
+ },
+ "top": {
+  "setting": "dark nursery at night, window upper left with the moon, cot round the subject, door at the right ajar onto a lit hallway",
+  "room": {
+   "w": 4.2,
+   "d": 3.6,
+   "at": [
+    0.2,
+    0,
+    0.6
+   ]
+  },
+  "window": {
+   "at": -1.14,
+   "y0": 0.75,
+   "w": 1.0,
+   "h": 1.35
+  },
+  "door": {
+   "at": 1.4,
+   "open": 0.23
+  },
+  "cot": {
+   "at": [
+    -0.15,
+    0,
+    0
+   ],
+   "yaw": 0
+  },
+  "chest": [
+   -1.55,
+   0,
+   -0.95
+  ],
+  "chair": [
+   1.6,
+   0,
+   0.6
+  ],
+  "moonLight": 0.5,
+  "windowGlow": 3.0,
+  "hallLight": 14,
+  "look": {
+   "exposure": 1.7,
+   "aperture": 0.0008,
+   "vignette": 0.36
+  },
+  "toybox": {
+   "at": [
+    1.28,
+    0,
+    -0.98
+   ],
+   "w": 0.62,
+   "h": 0.5,
+   "d": 0.4,
+   "color": "#C9B48E"
+  }
+ },
+ "bottom": {
+  "setting": "open savanna at night, same moon, subject on bare ground, a small fire far off on the skyline with two seated adults, dark bush left and lower right with eyeshine",
+  "time": "night",
+  "g": 3011,
+  "scatter": {
+   "trees": 0.4,
+   "bushes": 0.2,
+   "rocks": 0.5
+  },
+  "fireDist": 38,
+  "fireCentre": 0.35,
+  "fireSize": 0.9,
+  "rises": [
+   {
+    "ray": 0,
+    "dist": 38,
+    "above": 0.35,
+    "rx": 14,
+    "rz": 14
+   }
+  ],
+  "clear": [
+   [
+    -0.2,
+    0,
+    2.5,
+    3
+   ]
+  ],
+  "bushes": [
+   {
+    "seed": 41,
+    "at": [
+     -2.6,
+     0,
+     -2.5
+    ],
+    "n": 5,
+    "size": 0.85,
+    "spread": 0.9,
+    "eyes": [
+     [
+      -2.15,
+      0.38,
+      -1.85
+     ]
+    ]
+   },
+   {
+    "seed": 77,
+    "at": [
+     0.85,
+     0,
+     -0.9
+    ],
+    "n": 3,
+    "size": 0.42,
+    "spread": 0.35,
+    "eyes": [
+     [
+      0.72,
+      0.2,
+      -0.62,
+      1.2
+     ]
+    ]
+   }
+  ],
+  "look": {
+   "aperture": 0.0008
+  },
+  "grass": 0.35,
+  "bladeH": 0.7,
+  "litter": 120
+ }
+}
